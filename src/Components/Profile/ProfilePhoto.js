@@ -1,9 +1,14 @@
 import React from "react";
-import Pic1 from './dhia.jpg';
+import Pic1 from '../../Photo/dhia.png';
 
-export default function photo() {
-    return (
-        <img className='img1' src={Pic1} alt='image 1'/>
-    )
-  
+function ProfilePhoto() {
+    return ( 
+        <>
+        
+        <img className='logo' src={Pic1} alt='logo'/>
+        
+        </>
+     );
 }
+
+export default ProfilePhoto;

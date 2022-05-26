@@ -1,9 +1,9 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import bootstrap from "bootstrap";
+import { Form } from 'react-bootstrap';
 
 
-export default function address() {
+export default function Address() {
     return (
        <>
        <Form.Control type="text" placeholder="Put your address" />
